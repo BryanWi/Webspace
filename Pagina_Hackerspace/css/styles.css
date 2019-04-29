@@ -1,0 +1,103 @@
+
+/** Global **/
+/**.contenedor {
+}**/
+
+body {
+    max-width: 100%;
+    margin: 0px;  
+    background: #FDE9D8;
+    font-family: sans-serif, 'Arial Narrow', Arial;
+    color: white;
+    word-wrap: break-word;
+}
+
+/** Header **/
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E36C09;
+    height: 50px;    
+    padding: 8px ;
+}
+
+.barra a {
+    text-decoration: none;
+}
+
+#tituloWeb {
+    margin: 0px;
+    color: white;
+    font-size: 35px;
+    font-family: sans-serif, 'Arial Narrow', Arial;
+    margin: 0rem 1rem;
+         /* Cambiar font-family?*/
+}
+
+.navegador a {
+    color: white;
+    text-decoration:none;
+    margin-right: 10px;
+}
+.navegador a:hover {
+    color: #07b607;
+}
+.navegador a:last-of-type {
+    margin: 0px;
+}
+
+/** Columnas **/
+.columnas {
+    display: flex;
+    padding-top: 1rem;
+}
+.columnas div{
+    margin-right: auto;
+    width: 28%;
+    max-width: 28%;
+    padding: 1rem;
+    background-color: #E36C09;
+    border-radius: 1rem;
+}
+.columnas div:first-of-type{
+    margin-left: auto;
+}
+.columnas div img {
+    border-radius: 1rem;
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+.hide{
+    visibility: hidden;
+}
+.inicio {
+    width: auto;
+    max-width: 80%;
+    background: white;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    color: black;
+    padding: 3rem;
+    font-size: 1.3rem;
+}
+
+.slogan {
+    margin: 0rem auto;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+.inicio a{
+        color: orange;
+        text-decoration:none;
+        display: flex;
+        justify-content: center;
+}
